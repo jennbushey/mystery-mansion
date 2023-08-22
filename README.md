@@ -1,2 +1,4 @@
-# mystery-mansion
-Developing code to replicate the electronic organizer in the 1995 board game. Money is hidden somewhere in this mansion. Search and gather clues to go home rich! 
+# Mystery_Mansion
+Project: My$tery Man$ion
+
+A browser version of the My$tery Man$ion computer.

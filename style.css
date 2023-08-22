@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/18/15/26/villa-3237114_1280.jpg);
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(240, 240, 240, 1);
+}
+
+.screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    background-color: lightgrey;
+    height: 48px;
+    width: 438px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    padding: 16px;
+    margin: auto;
+    width: 480px;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    border: 1px solid rgba(35, 35, 35, 0.75);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.75);
+    color: white;
+}
+
+#enter {
+    width: 150px;
+}
+
+#clear, #reset {
+    width: 100px;
+}
+
+.topRow button {
+    background-color: rgb(165, 44, 93);
+}
+
+.bottomRow button {
+    background-color: rgb(238, 151, 95);
+
+}
+
+.topRow button:hover {
+    color: inherit;
+    background-color: rgba(165, 44, 93, 0.85);
+}
+
+.bottomRow button:hover {
+    color: inherit;
+    background-color: rgba(238, 151, 95, 0.85);
+}
